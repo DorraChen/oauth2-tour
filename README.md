@@ -47,7 +47,7 @@ JWT这种结构化体分为三部分:
 
 流程摘自RFC 6749: [Protocol Flow](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2)
 
-![Protocol Flow](/img/Protocol Flow.png)
+![Protocol Flow](./img/Protocol Flow.png)
 
 ## 2.授权类型
 
@@ -60,7 +60,7 @@ JWT这种结构化体分为三部分:
 
 授权码许可类型序列图:
 
-![常见的授权码许可类型序列图](/img/常见的授权码许可类型序列图.png)
+![常见的授权码许可类型序列图](./img/常见的授权码许可类型序列图.png)
 
 在 OAuth 2.0 中，访问令牌被要求有极高的安全保密性，因此我们不能让它暴露在浏览器上面，只能通过第三方软件的后端服务来获取和使用，以最大限度地保障访问令牌的安全性。正因为访问令牌的这种安全要求特性，当需要前端通信，比如浏览器上面的流转的时候，OAuth 2.0 才又提供了一个临时的凭证：授权码。通过授权码的方式，可以让用户在授权服务上给第三方软件授权之后，还能重新回到第三方软件的操作页面上。这样，在保障安全性的情况下，提升了用户在第三方软件上的体验。
 
@@ -96,7 +96,7 @@ A3: OAuth 2.0 产生于第三方应用的场景，来管理对外的权限，但
 - https://blog.didispace.com/spring-security-oauth2-xjf-1/
 - https://blog.csdn.net/qq_37771475/article/details/103288957
 - https://time.geekbang.org/column/intro/100053901
-- 关于JWT
+- Abort JWT:
   - https://datatracker.ietf.org/doc/html/rfc7519
   - https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html
   - https://www.jianshu.com/p/576dbf44b2ae
