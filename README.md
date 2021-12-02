@@ -47,7 +47,7 @@ JWT这种结构化体分为三部分:
 
 流程摘自RFC 6749: [Protocol Flow](https://datatracker.ietf.org/doc/html/rfc6749#section-1.2)
 
-![Protocol Flow](./img/Protocol Flow.png)
+![Protocol Flow](./img/协议流程.png)
 
 ## 2.授权类型
 
