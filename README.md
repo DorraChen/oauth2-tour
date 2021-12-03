@@ -68,8 +68,3 @@ A3: OAuth 2.0 产生于第三方应用的场景，来管理对外的权限，但
 - https://blog.didispace.com/spring-security-oauth2-xjf-1/
 - https://blog.csdn.net/qq_37771475/article/details/103288957
 - https://time.geekbang.org/column/intro/100053901
-- Abort JWT:
-  - https://datatracker.ietf.org/doc/html/rfc7519
-  - https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html
-  - https://www.jianshu.com/p/576dbf44b2ae
-

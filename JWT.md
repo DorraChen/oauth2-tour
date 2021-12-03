@@ -1,4 +1,4 @@
-
+[TOC]
 
 ## 1.1.1 JWT
 
@@ -54,3 +54,8 @@ A1: 不能将JWT存储到数据库中,因为这样违背了JWT设计初衷-将�
 - 对于JWT令牌生命周期的管理,除了令牌自然过期和刷新令牌的实现,还需要提供支持第三方软件主动发起令牌失效请求的api.(比如用户对第三方软件订购时长到期或者退订,授权token还没到期,这种情况下建议第三方软件遵守令牌撤回协议)
 - 令牌在OAuth2.0系统中对于第三方软件都是不透明的,不论是结构化令牌还是非结构化令牌,对于第三方软件来说都不关心,需要关心令牌的,是授权服务和受保护资源服务.
 
+
+## 参考文章
+- https://datatracker.ietf.org/doc/html/rfc7519
+- https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html
+- https://www.jianshu.com/p/576dbf44b2ae
