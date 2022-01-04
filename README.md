@@ -151,9 +151,13 @@ access token 具有唯一性, 不可连续性, 不可猜测性.
 
 对于没有server端的APP应用,该如何使用授权码许可类型呢?
 
-没有server端的APP应用使用授权码许可类型,需要解决的问题:APP被安装到终端设备,请求访问令牌时需要的app_secret只能保存在本地,app_secret一旦被破解,将造成灾难性后果.
+没有server端的APP应用使用授权码许可类型, 需要解决的问题: APP被安装到终端设备, 请求访问令牌时需要的app_secret只能保存在本地, app_secret一旦被破解,将造成灾难性后果. 如果不用app_secret, 就没有了app_secret这一层的保护, 那么通过授权码code换取访问令牌的时候, 就只有授权码code冲锋陷阵, 这时授权码code一旦失窃, 会带来严重的安全问题. 有没有什么办法可以既不使用app_secret, 又防止授权码code失窃?
 
 OAuth 2.0中的指导方法: Proof Key for Code Exchange([PKCE协议](https://oauth.net/2/pkce/))
+
+![PKCE流程](./img/PKCE流程.png)
+
+
 
 
 ## 参考文章
